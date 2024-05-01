@@ -1,0 +1,25 @@
+// Fonts
+
+// Inika
+.h1{
+ @font-face {
+    font-family: 'Inika';
+    font-weight: 52 ;
+    font-style: normal;
+    src: url(/Fonts/Inika-Regular.ttf) format(ttf);
+}
+}
+
+.label{
+@font-face {
+    font-family: 'Inter';
+    font-weight: 30;
+    font-style: normal;
+    src: url(/Fonts/AndBasR.ttf) format(ttf);
+}}
+
+/*@font-face {
+    font-family: 'Inter';
+    src: url();
+}*/
+

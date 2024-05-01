@@ -1,0 +1,71 @@
+@use './base/typography' as *;
+@use './abstracts/placeholders' as *;
+@use  './abstracts/colors' as *;
+@use './components/buttons' as *; 
+@use './pages/login' as *;
+@use './abstracts/mixins' as *;
+
+
+body{
+    background-image: url('/assets/images/20240428_171800.jpg');
+    background-size: cover;
+  //  background-position: ;
+    background-repeat: no-repeat;
+}
+
+
+label{
+    margin: 40px;
+    @extend .label;
+    font-weight: bold;
+}
+
+input{
+    margin-left: 40px;
+    border: none;
+    border-bottom: 0.4px solid;
+    background-color: rgb(211, 211, 211,0.01);
+}
+
+input::placeholder{
+    color: rgb(29, 29, 29);
+}
+
+h1{
+    color:black;
+    @extend .h1;
+    font-size: 50px; 
+}
+
+#submit {
+    @extend .submit ;
+    text-align: center;
+    position:absolute;
+    left:35%;
+}
+
+#reset{
+    @extend #reset;
+    position:absolute;
+    right: 28%;
+    top:92.5%;
+}
+
+.divider1{
+    border:none;
+    background-color:rgb(211, 211, 211,0.3);
+    border-radius:16px;
+    width: 450px;
+    height:850px;
+    position: absolute;
+    top:8%;
+    right:35%;
+}
+
+.divider1 h1 {
+    text-align: center;
+}
+
+.divider1 #submit{
+    text-align: center;
+}

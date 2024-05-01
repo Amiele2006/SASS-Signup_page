@@ -1,0 +1,32 @@
+
+// buttons
+
+// Defining  a submit button style
+.submit {
+    // Button appearance styles
+    background-color: #fff; /* white */
+    color: rgb(255,29,29); /* red text */
+    padding: 3px 30px; /* Padding */
+    border-radius: 20px; /* Rounded corners */
+    border-color: rgb(255,29,29);
+    cursor: pointer; /* Cursor style */
+    
+    // Hover effect
+    &:hover {
+      background-color: rgb(255,29,29); /* Darker blue */
+      color:#fff;
+    }
+
+    //Text inside
+    font-size: 19.5px;
+  }
+
+#reset {
+    border-radius:30px;
+    border:none;
+    position: absolute;
+    bottom:3px;
+    right:80px;
+    background-color: rgb(211,211,211,0.1);
+}
+  
