@@ -1,4 +1,11 @@
 # SASS-Signup_page
-This is a signup page built with SASS, HTML and Javascript. It uses HTML validations as well as javascript interactions. This is a project built during my time at the DCTP handled by Alt School and Dev Career.
 
-You can use and modify this project at your will but do give me credit. I'll be adding edits as I get more knowledge about sass. Thank you.
+• Developed a dynamic sign-up page with authentication and auto-completion features using HTML, CSS, and JavaScript.
+• Implemented authentication functionality to securely validate user credentials.
+• Integrated auto-complete functionality to streamline user data entry and enhance user experience.
+• Designed and implemented reset and submit buttons for user interaction.
+• Implemented password encryption to enhance security measures.
+• Technologies Used:
+   • HTML
+   • CSS
+   • JavaScript
