@@ -4,7 +4,7 @@
 • Implemented authentication functionality to securely validate user credentials.
 • Integrated auto-complete functionality to streamline user data entry and enhance user experience.
 • Designed and implemented reset and submit buttons for user interaction.
-• Implemented password encryption to enhance security measures.
+• Implemented password encryption to enhance security measures.\n
 • Technologies Used:
    • HTML
    • CSS
